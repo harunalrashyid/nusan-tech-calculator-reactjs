@@ -1,6 +1,8 @@
 .calculator {
-	padding: 5% 25% 5% 10%;
+	padding: 10% 25% 10% 15%;
 	background-color: #fff;
+    margin-top: 10vmin;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .125);
 }
 
 .calculator__input-wrapper {
@@ -46,4 +48,5 @@
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 0;
 }

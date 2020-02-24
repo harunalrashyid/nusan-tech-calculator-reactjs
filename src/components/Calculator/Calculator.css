@@ -1,0 +1,49 @@
+.calculator {
+	padding: 5% 25% 5% 10%;
+	background-color: #fff;
+}
+
+.calculator__input-wrapper {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.calculator__input-number {
+	padding: .35rem;
+	width: 100%
+}
+
+.calculator__input-checkbox {
+	position: absolute;
+	right: -10%;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+}
+
+.calculator__action-wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin: 5% 0;
+}
+
+.calculator__action {
+	-webkit-appearance: none;
+	background-color: #fff;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #eee;
+}
+
+.calculator__result {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
